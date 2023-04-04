@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sahyadri</title>
+	<style>
+		.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+input[type="radio"] {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Chrome, Safari, Opera */
+  transform: scale(1.5);
+}
+		</style>
+</head>
+<body>
+	<form method="POST">
+		<h1> Sahyadri Logo Vote</h1>
+		<label for="textfield">Enter Name</label>
+		<input type="text" name="textfield" id="textfield"><br><br>
+		<p>Choose an option:</p>
+
+		<input type="radio" name="vote" id="1" value="1" >
+		<label for="1"><img src="{{ url_for('static', filename='images/1.jpeg') }}"  width="300" height="300"></label>
+		<br>
+		<br>
+		<br>
+		<input type="radio" name="vote" id="2" value="2">
+		<label for="2"><img src="{{ url_for('static', filename='images/2.png') }}"  width="300" height="300"></label>
+		<br>
+		<br>
+		<br>
+		<input type="radio" name="vote" id="3" value="3">
+		<label for="3"><img src="{{ url_for('static', filename='images/3.png') }}"  width="300" height="300"></label>
+		<br>
+		<br>
+		<br>
+		<input type="radio" name="vote" id="4" value="4">
+		<label for="4"><img src="{{ url_for('static', filename='images/4.png') }}"  width="300" height="300"></label>
+		<br>
+		<br>
+		<br>
+		<input type="radio" name="vote" id="5" value="5">
+		<label for="5"><img src="{{ url_for('static', filename='images/5.png') }}"  width="300" height="300"></label>
+		<br>
+		<br>
+		<br>
+		<input type="radio" name="vote" id="6" value="6">
+		<label for="6"><img src="{{ url_for('static', filename='images/6.png') }}"  width="300" height="300"></label>
+		<br>
+		<br>
+		<br>
+		<input type="radio" name="vote" id="7" value="7">
+		<label for="7"><img src="{{ url_for('static', filename='images/7.png') }}"  width="300" height="300"></label>
+		<br>
+		<br>
+		<br>
+		<input type="radio" name="vote" id="8" value="8">
+		<label for="8"><img src="{{ url_for('static', filename='images/8.png') }}"  width="300" height="300"></label>
+		<br>
+		<br>
+		<br>
+
+		<input type="radio" name="vote" id="9" value="9">
+		<label for="9"><img src="{{ url_for('static', filename='images/9.jpeg') }}"  width="300" height="300"></label>
+		<br>
+		<br>
+		<br>
+		<input type="radio" name="vote" id="10" value="10">
+		<label for="10"><img src="{{ url_for('static', filename='images/10.png') }}"  width="300" height="300"></label>
+		
+		<br>
+		<br>
+		<br>
+
+
+		<input type="radio" name="vote" id="11" value="11">
+		<label for="11"><img src="{{ url_for('static', filename='images/11.jpeg') }}"  width="300" height="300"></label>
+		
+		<br>
+		<br>
+		<br>
+		<input type="radio" name="vote" id="12" value="12">
+		<label for="12"><img src="{{ url_for('static', filename='images/12.jpeg') }}"  width="300" height="300"></label>
+		
+		<br>
+		<br>
+		<br>
+		<input type="radio" name="vote" id="13" value="13">
+		<label for="13"><img src="{{ url_for('static', filename='images/13.jpeg') }}"  width="300" height="300"></label>
+		
+		<br>
+		<br>
+		<br>
+
+		<input type="submit" value="Submit" class="button" >
+	</form>
+	</form>
+</body>
+</html>
