@@ -1,5 +1,6 @@
-from flask import Flask, request ,render_template
-
+from flask import Flask, request ,render_template ,Response
+from PIL import Image, ImageDraw, ImageFont
+import io
 import json
 app = Flask(__name__)
 
@@ -50,9 +51,7 @@ def reset():
     return f"done"
 
 
-from flask import Flask, request, Response
-from PIL import Image, ImageDraw, ImageFont
-import io
+
 
 app = Flask(__name__)
 
