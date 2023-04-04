@@ -10,7 +10,7 @@ app = Flask(__name__)
 
 @app.route('/image')
 def get_image():
-    return send_file('/static/images/2.png', mimetype='image/png')
+    return send_file('./static/images/2.png', mimetype='image/png')
 
 if __name__ == '__main__':
     app.run(debug=True)
